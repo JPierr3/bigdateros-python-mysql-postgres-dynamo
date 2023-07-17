@@ -1,8 +1,8 @@
 
-# Whatsapp Bot con Python
+# Python y MySQL/PostgreSQL/DynamoDB: Chatbot Soporte Tickets
 
-Impulsa tu negocio con un bot usando las apis oficiales de whatsapp.
-pueden ver el video paso a paso en el siguiente enlace: https://youtu.be/puYWiZDJnL0
+Aprende a usar Python y MySQL/PostgreSQL para construir un chatbot de soporte excepcional. Este video te proporcionará las herramientas y conocimientos que necesitas para empezar tu viaje en el desarrollo de chatbots.
+link del video: https://youtu.be/puYWiZDJnL0
 
 ## Descarga el proyecto
 
@@ -52,14 +52,18 @@ git clone https://github.com/JPierr3/bigdateros-whatsappbot-python.git
 ```
 
 
-## Simular mensajes del usuario con postman
+## Scripts mencionados en el video
 
 ```javascript
-Ingresar la URL
-http://127.0.0.1:5000/webhook
+Canal de ayuda en slack
+https://join.slack.com/t/bigdaterosask/shared_invite/zt-1y000g9fk-mUI~9vRjs8uoLuIjXN5Okg
+ 
 
 
-en body, seleccionar "raw" y tipo "JSON", no olvidar agregar tu número
+
+Para postman, solo su numero en "from" y el contenido del texto en "body"
+url: http://127.0.0.1:5000/webhook
+
 {
   "object": "whatsapp_business_account",
   "entry": [{
