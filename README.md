@@ -13,6 +13,9 @@ git clone https://github.com/JPierr3/bigdateros-whatsappbot-python.git
     
 ## Funcionalidades
 
+- Integrar python con mysql, postgres y  DynamoDB (se requiere py3.8+)
+- Chatbot para soporte de tickets: Métodos CRUD
+- Uso de whatsapp cloud api oficial (no terceros)
 - Enviar mensaje de texto
 - Enviar menus como botones o listas
 - Enviar stickers
@@ -27,7 +30,7 @@ git clone https://github.com/JPierr3/bigdateros-whatsappbot-python.git
 1. Dirigete al directorio donde descargaste el proyecto
 
 ```bash
-  cd bigdateros-whatsappbot-python
+  cd mi_proyecto
 ```
 2. Crea un ambiente virtual con la version de python 3.10
 
