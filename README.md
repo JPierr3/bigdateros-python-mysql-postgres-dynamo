@@ -64,6 +64,43 @@ https://join.slack.com/t/bigdaterosask/shared_invite/zt-1y000g9fk-mUI~9vRjs8uoLu
 Instalar las liberias de bases de datos
 pip install psycopg2-binary pymysql boto3
 
+Crear los objetos de base de datos
+
+#mysql
+CREATE DATABASE bigdateros 
+CREATE TABLE tickets (
+    ticket_id VARCHAR(50) PRIMARY KEY,
+    status VARCHAR(20),
+    created_at DATETIME,
+    number VARCHAR(50),
+    name VARCHAR(50),
+    description TEXT
+);
+
+
+# postgres 
+CREATE DATABASE bigdateros 
+CREATE TABLE tickets (
+    ticket_id VARCHAR(50) PRIMARY KEY,
+    status VARCHAR(20),
+    created_at TIMESTAMP,
+    number VARCHAR(50),
+    name VARCHAR(50),
+    description TEXT
+);
+
+#dynamodb
+se debe configurar primero en el terminarl:
+aws configure
+
+luego crear la tabla
+aws dynamodb create-table \
+    --table-name tickets \
+    --attribute-definitions \
+        AttributeName=ticket_id,AttributeType=S \
+    --key-schema AttributeName=ticket_id,KeyType=HASH \
+    --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5 \
+    --region us-east-1 
 
 Para postman, solo su numero en "from" y el contenido del texto en "body"
 url: http://127.0.0.1:5000/webhook
