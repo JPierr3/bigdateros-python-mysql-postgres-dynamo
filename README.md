@@ -61,7 +61,8 @@ git clone https://github.com/JPierr3/bigdateros-whatsappbot-python.git
 Canal de ayuda en slack
 https://join.slack.com/t/bigdaterosask/shared_invite/zt-1y000g9fk-mUI~9vRjs8uoLuIjXN5Okg
  
-
+Instalar las liberias de bases de datos
+pip install psycopg2-binary pymysql boto3
 
 
 Para postman, solo su numero en "from" y el contenido del texto en "body"
