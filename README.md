@@ -2,7 +2,7 @@
 # Python y MySQL/PostgreSQL/DynamoDB: Chatbot Soporte Tickets
 
 Aprende a usar Python y MySQL/PostgreSQL para construir un chatbot de soporte excepcional. Este video te proporcionará las herramientas y conocimientos que necesitas para empezar tu viaje en el desarrollo de chatbots.
-link del video: https://youtu.be/puYWiZDJnL0
+link del video: [https://youtu.be/puYWiZDJnL0](https://youtu.be/vik6wLKjx-Q)
 
 ## Descarga el proyecto
 
