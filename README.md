@@ -8,7 +8,7 @@ link del video: [https://youtu.be/puYWiZDJnL0](https://youtu.be/vik6wLKjx-Q)
 
 
 ```bash
-git clone https://github.com/JPierr3/bigdateros-whatsappbot-python.git
+git clone https://github.com/JPierr3/bigdateros-python-mysql-postgres-dynamo/tree/main
 ```
     
 ## Funcionalidades
